@@ -43,6 +43,7 @@
                 <a href="#accueil" class="hover:text-blue-400 transition-colors">Accueil</a>
                 <a href="#competences" class="hover:text-blue-400 transition-colors">Compétences</a>
                 <a href="#projets" class="hover:text-blue-400 transition-colors">Projets</a>
+                <a href="#veille" class="hover:text-blue-400 transition-colors">Veille Techno</a>
                 <a href="#experience" class="hover:text-blue-400 transition-colors">Expérience</a>
                 <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
             </div>
@@ -61,6 +62,7 @@
             <a href="#accueil" class="block px-4 py-3 hover:bg-slate-700" onclick="toggleMenu()">Accueil</a>
             <a href="#competences" class="block px-4 py-3 hover:bg-slate-700" onclick="toggleMenu()">Compétences</a>
             <a href="#projets" class="block px-4 py-3 hover:bg-slate-700" onclick="toggleMenu()">Projets</a>
+            <a href="#veille" class="block px-4 py-3 hover:bg-slate-700" onclick="toggleMenu()">Veille Techno</a>
             <a href="#experience" class="block px-4 py-3 hover:bg-slate-700" onclick="toggleMenu()">Expérience</a>
             <a href="#contact" class="block px-4 py-3 hover:bg-slate-700" onclick="toggleMenu()">Contact</a>
         </div>
@@ -83,9 +85,12 @@
             <p class="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
                 Actuellement en alternance en tant que technicien systèmes et réseaux dans l'hôtellerie de luxe. Passionné par l'administration systèmes et réseaux, je développe mes compétences en infrastructure IT, sécurité et virtualisation.
             </p>
-            <div class="flex gap-4 justify-center">
+            <div class="flex gap-4 justify-center flex-wrap">
                 <a href="#projets" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition-colors">
                     Voir mes projets
+                </a>
+                <a href="cv.pdf" download class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition-colors">
+                    CV
                 </a>
                 <a href="#contact" class="border-2 border-blue-500 hover:bg-blue-500/10 px-8 py-3 rounded-lg font-semibold transition-colors">
                     Me contacter
@@ -139,166 +144,4 @@
                 <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6 hover:border-blue-500/50 transition-all hover:scale-105">
                     <div class="text-blue-400 mb-4">
                         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
-                        </svg>
-                    </div>
-                    <h3 class="text-xl font-bold mb-2">Virtualisation</h3>
-                    <p class="text-slate-300">VMware, Hyper-V</p>
-                </div>
-            </div>
-
-            <div class="mt-12 bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-8">
-                <h3 class="text-2xl font-bold mb-6">Compétences Techniques</h3>
-                <div class="grid md:grid-cols-3 gap-6">
-                    <div>
-                        <h4 class="font-semibold text-blue-400 mb-3">Systèmes</h4>
-                        <ul class="space-y-2 text-slate-300">
-                            <li>• Windows Server 2019/2022</li>
-                            <li>• Linux (Debian, Ubuntu, CentOS)</li>
-                            <li>• Active Directory & GPO</li>
-                            <li>• PowerShell & Bash</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="font-semibold text-blue-400 mb-3">Réseaux</h4>
-                        <ul class="space-y-2 text-slate-300">
-                            <li>• Cisco IOS</li>
-                            <li>• VLANs & Routing</li>
-                            <li>• pfSense / OPNsense</li>
-                            <li>• TCP/IP, DNS, DHCP</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h4 class="font-semibold text-blue-400 mb-3">Virtualisation</h4>
-                        <ul class="space-y-2 text-slate-300">
-                            <li>• VMware ESXi</li>
-                            <li>• Hyper-V</li>
-                            <li>• Proxmox VE</li>
-                            <li>• Docker</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Projets -->
-    <section id="projets" class="min-h-screen py-20 px-4 bg-slate-900/50">
-        <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-bold text-center mb-4">Mes Projets</h2>
-            <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-12"></div>
-            
-            <div class="max-w-2xl mx-auto">
-                <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6 hover:border-blue-500/50 transition-all hover:-translate-y-2">
-                    <h3 class="text-xl font-bold mb-3">Infrastructure réseau d'entreprise</h3>
-                    <p class="text-slate-300 mb-4">Mise en place d'une infrastructure complète avec segmentation VLAN, serveur DHCP/DNS et pare-feu pfSense.</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Cisco</span>
-                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">pfSense</span>
-                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Windows Server</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Expérience -->
-    <section id="experience" class="min-h-screen py-20 px-4">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-4xl font-bold text-center mb-4">Expérience Professionnelle</h2>
-            <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-12"></div>
-            
-            <div class="space-y-8">
-                <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6">
-                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
-                        <div>
-                            <h3 class="text-xl font-bold">Alternant - Technicien Systèmes et Réseaux</h3>
-                            <p class="text-blue-400">Hôtel National des Arts et Métiers ⭐⭐⭐⭐ - Paris 3ème</p>
-                        </div>
-                        <span class="text-slate-400 mt-2 md:mt-0">2024 - Présent</span>
-                    </div>
-                    <ul class="space-y-2 text-slate-300">
-                        <li>• Administration et maintenance de l'infrastructure IT de l'hôtel</li>
-                        <li>• Gestion des systèmes informatiques dans un environnement hôtelier 4 étoiles</li>
-                        <li>• Support technique aux équipes et aux clients</li>
-                        <li>• Maintenance des équipements réseau et serveurs</li>
-                        <li>• Sécurisation des données et des accès</li>
-                    </ul>
-                </div>
-
-                <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6">
-                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
-                        <div>
-                            <h3 class="text-xl font-bold">Formation BTS SIO option SISR</h3>
-                            <p class="text-blue-400">ITIC Paris - Paris 20ème</p>
-                        </div>
-                        <span class="text-slate-400 mt-2 md:mt-0">2023 - 2025</span>
-                    </div>
-                    <p class="text-slate-300">
-                        Formation en alternance en administration des systèmes et des réseaux, incluant la virtualisation, la sécurité informatique et la gestion d'infrastructure. Actuellement en 2ème année.
-                    </p>
-                </div>
-
-                <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6">
-                    <div class="flex flex-col md:flex-row md:justify-between md:items-start mb-4">
-                        <div>
-                            <h3 class="text-xl font-bold">Bac Professionnel Systèmes Numériques</h3>
-                            <p class="text-blue-400">Lycée Galilée - Paris 13ème</p>
-                        </div>
-                        <span class="text-slate-400 mt-2 md:mt-0">2020 - 2023</span>
-                    </div>
-                    <p class="text-slate-300">
-                        Option RISC (Réseaux Informatiques et Systèmes Communicants). Formation aux fondamentaux des réseaux, de l'infrastructure informatique et des systèmes de communication.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact -->
-    <section id="contact" class="min-h-screen py-20 px-4 bg-slate-900/50">
-        <div class="max-w-4xl mx-auto">
-            <h2 class="text-4xl font-bold text-center mb-4">Me Contacter</h2>
-            <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-12"></div>
-            
-            <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-8">
-                <p class="text-center text-slate-300 mb-8">
-                    N'hésitez pas à me contacter pour toute opportunité de stage, d'alternance ou de collaboration.
-                </p>
-                
-                <div class="flex flex-wrap justify-center gap-6">
-                    <a href="mailto:mohamedali.aissa@yahoo.com" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-lg transition-colors">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                        </svg>
-                        Email
-                    </a>
-                </div>
-
-                <div class="mt-8 pt-8 border-t border-blue-500/20 text-center text-slate-400">
-                    <p>📍 Paris, France</p>
-                    <p>📧 mohamedali.aissa@yahoo.com</p>
-                    <p>📱 07.67.34.62.60</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-slate-950 py-6 text-center text-slate-400 border-t border-blue-500/20">
-        <p>&copy; 2024 Aissa Mohamed Ali - Portfolio BTS SIO SISR</p>
-    </footer>
-
-    <script>
-        function toggleMenu() {
-            const menu = document.getElementById('mobile-menu');
-            const menuIcon = document.getElementById('menu-icon');
-            const closeIcon = document.getElementById('close-icon');
-            
-            menu.classList.toggle('hidden');
-            menuIcon.classList.toggle('hidden');
-            closeIcon.classList.toggle('hidden');
-        }
-    </script>
-</body>
-</html>
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6
