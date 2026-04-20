@@ -46,6 +46,7 @@
                 <a href="#veille" class="hover:text-blue-400 transition-colors">Veille Techno</a>
                 <a href="#experience" class="hover:text-blue-400 transition-colors">Expérience</a>
                 <a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a>
+                <a href="cv.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 px-4 py-1.5 rounded-lg font-semibold transition-colors text-sm">CV</a>
             </div>
 
             <button class="md:hidden" onclick="toggleMenu()">
@@ -83,22 +84,8 @@
                 Étudiant en BTS SIO SISR (2ème année) - Alternance
             </p>
             <p class="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
-                Actuellement en alternance en tant que technicien systèmes et réseaux dans l'hôtellerie de luxe. Passionné par l'administration systèmes et réseaux, je développe mes compétences en infrastructure IT, sécurité et virtualisation.
+                En alternance en tant que technicien systèmes et réseaux dans l'hôtellerie de luxe. Passionné par l'administration systèmes et réseaux, je développe mes compétences en infrastructure IT, sécurité et virtualisation.
             </p>
-            <div class="flex gap-4 justify-center flex-wrap">
-                <a href="#projets" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition-colors">
-                    Voir mes projets
-                </a>
-                <a href="cv.pdf" target="_blank" class="bg-blue-600 hover:bg-blue-700 px-8 py-3 rounded-lg font-semibold transition-colors">
-                    CV
-                </a>
-                <a href="#veille" class="border-2 border-blue-500 hover:bg-blue-500/10 px-8 py-3 rounded-lg font-semibold transition-colors">
-                    Veille Technologique
-                </a>
-                <a href="#contact" class="border-2 border-blue-500 hover:bg-blue-500/10 px-8 py-3 rounded-lg font-semibold transition-colors">
-                    Me contacter
-                </a>
-            </div>
             <div class="mt-12 animate-bounce">
                 <svg class="w-8 h-8 mx-auto text-blue-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
@@ -110,7 +97,7 @@
     <!-- Compétences -->
     <section id="competences" class="min-h-screen py-20 px-4">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-bold text-center mb-4">Mes Compétences</h2>
+            <h2 class="text-4xl font-bold text-center mb-4">Compétences</h2>
             <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-12"></div>
             
             <div class="grid md:grid-cols-2 gap-6">
@@ -131,7 +118,7 @@
                         </svg>
                     </div>
                     <h3 class="text-xl font-bold mb-2">Réseaux</h3>
-                    <p class="text-slate-300">Cisco, VLANs, routage, switching, protocoles TCP/IP</p>
+                    <p class="text-slate-300">Pfsense, VLANs, routage, switching, protocoles TCP/IP</p>
                 </div>
 
                 <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6 hover:border-blue-500/50 transition-all hover:scale-105">
@@ -190,20 +177,97 @@
     <!-- Projets -->
     <section id="projets" class="min-h-screen py-20 px-4 bg-slate-900/50">
         <div class="max-w-6xl mx-auto">
-            <h2 class="text-4xl font-bold text-center mb-4">Mes Projets</h2>
+            <h2 class="text-4xl font-bold text-center mb-4">Projets</h2>
             <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-12"></div>
-            
-            <div class="max-w-2xl mx-auto">
+
+            <!-- Projet Système & Réseau -->
+            <div class="grid md:grid-cols-2 gap-6 mb-14">
+                <!-- Projet Système -->
                 <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6 hover:border-blue-500/50 transition-all hover:-translate-y-2">
-                    <h3 class="text-xl font-bold mb-3">Infrastructure réseau d'entreprise</h3>
-                    <p class="text-slate-300 mb-4">Mise en place d'une infrastructure complète avec segmentation VLAN, serveur DHCP/DNS et pare-feu pfSense.</p>
-                    <div class="flex flex-wrap gap-2">
-                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Cisco</span>
-                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">pfSense</span>
-                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Windows Server</span>
+                    <div class="flex items-center justify-between mb-3 flex-wrap gap-2">
+                        <h3 class="text-xl font-bold">Projet Système</h3>
+                        <span class="text-xs bg-blue-500/10 text-blue-400 border border-blue-500/30 px-3 py-1 rounded-full">Système</span>
+                    </div>
+                    <p class="text-slate-400 italic mb-4">Description à venir...</p>
+                    <button onclick="alert('Le dossier PDF sera disponible prochainement.')" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                        </svg>
+                        Télécharger le dossier
+                    </button>
+                </div>
+
+                <!-- Projet Réseau -->
+                <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6 hover:border-blue-500/50 transition-all hover:-translate-y-2">
+                    <div class="flex items-center justify-between mb-3 flex-wrap gap-2">
+                        <h3 class="text-xl font-bold">Projet Réseau</h3>
+                        <span class="text-xs bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 px-3 py-1 rounded-full">Réseau</span>
+                    </div>
+                    <p class="text-slate-400 italic mb-4">Description à venir...</p>
+                    <button onclick="alert('Le dossier PDF sera disponible prochainement.')" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                        </svg>
+                        Télécharger le dossier
+                    </button>
+                </div>
+            </div>
+
+            <!-- Missions en entreprise -->
+            <div class="mb-14">
+                <h3 class="text-2xl font-bold mb-2 text-blue-300">🏢 Missions en entreprise</h3>
+                <div class="w-16 h-0.5 bg-blue-500/50 mb-8"></div>
+                <p class="text-slate-400 italic">Missions à venir...</p>
+            </div>
+
+            <!-- Missions en formation -->
+            <div>
+                <h3 class="text-2xl font-bold mb-2 text-cyan-300">🎓 Missions en formation</h3>
+                <div class="w-16 h-0.5 bg-cyan-500/50 mb-8"></div>
+                <div class="max-w-2xl">
+                    <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6 hover:border-blue-500/50 transition-all hover:-translate-y-2">
+                        <div class="flex items-center justify-between mb-3 flex-wrap gap-2">
+                            <h3 class="text-xl font-bold">Transfert de rôles FSMO</h3>
+                            <span class="text-xs bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 px-3 py-1 rounded-full">Projet Scolaire (SISR)</span>
+                        </div>
+                        <p class="text-slate-300 mb-4">Mise à niveau d'une infrastructure en migrant un contrôleur de domaine vers une version plus récente de Windows Server, incluant le transfert sécurisé des 5 rôles FSMO.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Windows Server</span>
+                            <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">FSMO</span>
+                            <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Migration</span>
+                            <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Active Directory</span>
+                        </div>
+                        <button onclick="alert('Le dossier PDF sera disponible prochainement.')" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                            </svg>
+                            Télécharger le dossier
+                        </button>
+                    </div>
+
+                    <!-- Projet 2 -->
+                    <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-6 hover:border-blue-500/50 transition-all hover:-translate-y-2 mt-6">
+                        <div class="flex items-center justify-between mb-3 flex-wrap gap-2">
+                            <h3 class="text-xl font-bold">Haute Disponibilité Pfsense</h3>
+                            <span class="text-xs bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 px-3 py-1 rounded-full">Projet Scolaire (SISR)</span>
+                        </div>
+                        <p class="text-slate-300 mb-4">Installation et configuration de pare-feu Pfsense en cluster pour assurer la haute disponibilité des services réseau et la redondance de la passerelle.</p>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Pfsense</span>
+                            <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Haute Disponibilité</span>
+                            <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Pare-feu</span>
+                            <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-sm">Réseau</span>
+                        </div>
+                        <button onclick="alert('Le dossier PDF sera disponible prochainement.')" class="flex items-center gap-2 bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-semibold transition-colors">
+                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
+                            </svg>
+                            Télécharger le dossier
+                        </button>
                     </div>
                 </div>
             </div>
+
         </div>
     </section>
 
@@ -378,7 +442,7 @@
     <!-- Contact -->
     <section id="contact" class="min-h-screen py-20 px-4">
         <div class="max-w-4xl mx-auto">
-            <h2 class="text-4xl font-bold text-center mb-4">Me Contacter</h2>
+            <h2 class="text-4xl font-bold text-center mb-4">Contact</h2>
             <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-12"></div>
             
             <div class="bg-slate-800/50 backdrop-blur-sm border border-blue-500/20 rounded-xl p-8">
